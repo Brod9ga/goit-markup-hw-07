@@ -678,6 +678,7 @@ line-height: calc(24 / 16);
 }
 .fucking-foto .list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
