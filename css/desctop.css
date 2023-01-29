@@ -1,4 +1,7 @@
 @media  screen and (min-width: 1200px) {
+    .conteiner{
+        max-width: 1440px;
+    }
     .header{
         padding-left: 156px;
         padding-right: 156px;
@@ -61,5 +64,8 @@ letter-spacing: 0.02em;
 }
 .footer-wrap{
     flex-wrap: nowrap;
+}
+.about-list{
+    justify-content: center;
 }
 }
