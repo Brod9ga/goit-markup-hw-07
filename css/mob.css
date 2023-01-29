@@ -1,0 +1,9 @@
+@media  screen and (min-width:480px){
+    .mobmenu-tel{
+        font-size: 36px;
+    }
+    .team-sociallist{
+        gap: 56px;
+    }
+    
+}

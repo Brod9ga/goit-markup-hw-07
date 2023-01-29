@@ -1,0 +1,101 @@
+@media screen and (min-width: 768px) {
+.btn-humburger{
+    display: none;
+}
+.conteiner{
+    padding: 0;
+}
+.mobmenu{
+    display: none;
+}
+.header > .conteiner{
+    padding: 24px 16px 22px;
+  }
+.header-main{
+    display: flex;
+    align-items: center;
+}
+.header-idlink {
+    display: flex;
+    align-items: center;
+    margin-left: 148px;
+    gap: 40px;
+    position: relative;
+  }
+  .header-contact {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    gap: 40px;
+  }
+  .header-nav{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+  }
+  .header-tel{
+    font-size: 12px;
+line-height: calc(16 / 12);
+margin-top: 4px;
+  }
+  .header-mail{
+    font-size: 12px;
+line-height: calc(16 / 12)
+  }
+  .main-head{
+    max-width: 768px;
+    padding: 112px 137px 108px 138px;
+  }
+  .main-head-text{
+    font-weight: 700;
+font-size: 55px;
+line-height: calc(60 / 56);
+  }
+  .main-head-btn{
+    margin-top: 40px;
+  }
+  .fourblocks-list{
+    gap: 24px;
+  }
+  .fourblocks-blok1, .fourblocks-blok2, .fourblocks-blok3, .fourblocks-blok4 {
+    width: calc((100% - 56px)/2);
+  }
+  .customers {
+    padding: 96px 106px;
+   
+}
+.customers-list{
+    gap: 24px;
+}
+  .customers-item {
+    width: calc((100% - 60px) / 3);
+    height: 88px;
+}
+.footer {
+    padding: 96px 108px;
+}
+.footer-inf{
+    display: block;
+}
+.footer-txt1{
+    text-align: start;
+}
+.footer-tab{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+}
+.subscribe{
+    text-align: start;
+}
+.form-footer{
+    flex-wrap: nowrap;
+    justify-content: flex-start
+
+}
+.input-footer{
+    width: 264px;
+}
+.modal{ top: 41%}
+}

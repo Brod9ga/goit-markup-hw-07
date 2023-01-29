@@ -1,0 +1,65 @@
+@media  screen and (min-width: 1200px) {
+    .header{
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+    .header-contact{
+        display: flex;
+    }
+    .main-head {
+        max-width: 1440px;
+        
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/head-fon.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .main-head-text{
+        width: 496px;
+        font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+    }
+    .fourblocks-icon {
+        margin: 24px 0;
+        display:flex;
+      }
+    .fourblocks-blok1, .fourblocks-blok2, .fourblocks-blok3, .fourblocks-blok4 {
+        width: calc((100% - 106px)/4);
+
+}
+.about {
+    padding: 120px 156px;
+
+    display: flex;
+  }
+  .team {
+    padding-bottom: 156px;
+    padding-top: 156px;
+
+}
+.team-list{
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+.customers{
+    padding-bottom: 120x;
+    padding-top: 120px;
+}
+.customers-item{
+    width: calc((100% - 120px) / 6);
+}
+.footer{
+    padding-bottom: 100x;
+    padding-top: 100px; 
+}
+.footer-wrap{
+    flex-wrap: nowrap;
+}
+}
