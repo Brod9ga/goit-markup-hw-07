@@ -42,12 +42,12 @@ body {
 
 .btn-humburger{
   position: absolute;
-  
-  top: 24px;
+  right: 16px;
+  top: 0;
   padding: 0; 
   border: none;
   background-color: transparent;
-  margin-left: 410px;
+  
 }
 .icon-humburger{
   stroke: #2E2F42;
@@ -93,6 +93,7 @@ body {
   display: none;
 }
 .header .conteiner {
+  position: relative;
   display: flex;
 }
 .header-nav {

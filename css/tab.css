@@ -63,6 +63,9 @@ line-height: calc(60 / 56);
   .fourblocks-blok1, .fourblocks-blok2, .fourblocks-blok3, .fourblocks-blok4 {
     width: calc((100% - 56px)/2);
   }
+  .team-list{
+    gap: 24px;
+  }
   .customers {
     padding-bottom: 96px;
     padding-top: 96px;
@@ -72,16 +75,18 @@ line-height: calc(60 / 56);
     gap: 24px;
 }
   .customers-item {
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 231px) / 3);
     height: 88px;
 }
 .footer {
   padding-bottom: 96px;
   padding-top: 96px;
+  padding-left: 160px;
     
 }
 .footer-inf{
     display: block;
+    width: 440px;
 }
 .footer-txt1{
     text-align: start;
